@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, verdana, sans-serif;
+}
+
+/* body {
+    background-color: #f9f9ff; 
+} */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 7px;
+    width: 20%;
+    border-color: #b3b3b3;
+    margin: auto;
+}
+
+.navigation {
+    background-color: #28305e;
+    padding: 1em 0px;
+    
+}
+
+table.navigation {
+    /* background-color: black; */
+    /* width: 20em; */
+    table-layout: fixed;
+    /* border: 1px solid red; */
+}
+
+table.navigation td {
+    width: 7.5em;
+    /* background-color: pink; */
+    text-align: center;
+
+}
+
+table.navigation td a {
+    color: white;    
+    font-family: verdana;
+}
+
+.hover-highlight:hover {
+    color: #ad0000;    
+    font-family: verdana;
+}
+
+
+/* table.navigation td a:link { 
+    color: white;
+} */
+
+/* table.navigation td a:visited {
+    color: white;
+} */
+
+.link {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/* .link:hover {
+    font-weight: bold;
+} */
+
+.title {
+    font-family: Georgia;
+    text-align: center;
+    font-size: 5em;
+    padding: 0.4em 0.2em;
+    /* color: #00b7ff; */
+    color: #ad0000;
+}
+
+.introduction {
+    padding: 1em;
+    /* width: 50%; */
+    /* background-color: #212852; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-flow: row wrap; */
+    flex: 0 1 auto;
+}
+
+.introduction .text {
+    max-width: 40em;
+    margin: 2em
+}
+
+.profile-pic img {
+    max-width: 100%;
+    height: auto;
+}
+
+#kombucha-image-box {
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.kombucha {
+    max-width: 50%;
+    height: auto;
+}
+
+.text {
+    font-size: 1.2em;
+}
+
+.text-white {
+    color: white;
+}
+
+.separator {
+    margin: 5em;
+}
+
+.wide-color {
+    background-color: #212852;
+}
+
+#kombucha-image-box {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #28305e;
+    padding: 0.5em;
+}
