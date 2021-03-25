@@ -4,9 +4,9 @@
     font-family: Georgia, verdana, sans-serif;
 }
 
-/* body {
+body {
     background-color: #f9f9ff; 
-} */
+}
 
 table {
     border-collapse: collapse;
@@ -76,7 +76,7 @@ table.navigation td a {
     margin: 1em;
     padding: 1em;
     /* width: 50%; */
-    /* background-color: #212852; */
+    background-color: white;
     margin: 0 auto;
     display: inline-flex;
     align-items: center;
