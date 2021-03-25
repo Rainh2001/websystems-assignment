@@ -46,28 +46,17 @@ table.navigation td a {
     font-family: verdana;
 }
 
-.hover-highlight:hover {
-    color: #ad0000;    
+.hover-style:hover {
+    /* color: #ad0000;     */
+    font-weight: bold;
+    font-style: italic;
     font-family: verdana;
 }
-
-
-/* table.navigation td a:link { 
-    color: white;
-} */
-
-/* table.navigation td a:visited {
-    color: white;
-} */
 
 .link {
     font-style: normal;
     text-decoration: none;
 }
-
-/* .link:hover {
-    font-weight: bold;
-} */
 
 .title {
     font-family: Georgia;
@@ -75,49 +64,65 @@ table.navigation td a {
     font-size: 5em;
     padding: 0.4em 0.2em;
     /* color: #00b7ff; */
-    color: #ad0000;
+    /* color: #ad0000; */
 }
 
-.introduction {
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+}
+
+.text-box {
+    margin: 1em;
     padding: 1em;
     /* width: 50%; */
     /* background-color: #212852; */
     margin: 0 auto;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     /* flex-flow: row wrap; */
     flex: 0 1 auto;
+
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 0 0 3px grey;
 }
 
-.introduction .text {
+.text-box .text {
     max-width: 40em;
-    margin: 2em
+    padding: 1em;
 }
 
-.profile-pic img {
+.bold-italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#course {
+    font-style: italic;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    color: goldenrod;
+}
+
+#profile-pic img {
     max-width: 100%;
     height: auto;
 }
 
-#kombucha-image-box {
-    display: flex;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly
-}
-
-.kombucha {
-    max-width: 50%;
-    height: auto;
+.float-right {
+    float: right;
+    margin-right: 1em;
 }
 
 .text {
+    font-size: 1.2em;
+}
+
+.nice-size {
     font-size: 1.2em;
 }
 
@@ -133,11 +138,31 @@ table.navigation td a {
     background-color: #212852;
 }
 
-#kombucha-image-box {
+.img-box-row {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     flex-flow: row wrap;
+}
+
+.img-box-col {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+}
+
+.img {
+    max-width: 80%;
+    height: auto;
+    flex: 0 1 auto;
+    margin: 5px;
+}
+
+ul.nice-size li {
+    font-size: 1em;
 }
 
 .footer {
