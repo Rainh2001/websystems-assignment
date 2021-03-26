@@ -102,14 +102,21 @@ h2.title {
     font-size: 1.2em;
 }
 
-.text-box p {
+.text-box p, h3 {
     max-width: 40em;
     padding: 1em;
 }
 
-/* .text-box ol, ul, p {
-    font-size: 1.2em;
-} */
+.text-box h3 {
+    font-size: 1.5em;
+    padding: 0.75em;
+}
+
+.flex-align-left {
+    display: flex;
+    align-items: left;
+    width: 100%;
+}
 
 .border-shadow {
     border: 1px solid grey;
@@ -182,9 +189,9 @@ h2.title {
 }
 
 .img {
-    max-width: 80%;
+    /* width: auto; */
     height: auto;
-    flex: 0 1 auto;
+    /* flex: 0 1 auto; */
     margin: 5px;
 }
 
