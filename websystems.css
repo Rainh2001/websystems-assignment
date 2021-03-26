@@ -14,11 +14,20 @@ table {
 }
 
 hr {
-    border-style: dotted none none;
+    border-style: dotted none none none;
     border-width: 7px;
     width: 20%;
     border-color: #b3b3b3;
     margin: auto;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #28305e;
+    padding: 0.5em;
 }
 
 .navigation {
@@ -67,6 +76,11 @@ table.navigation td a {
     /* color: #ad0000; */
 }
 
+h2.title {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
 .wrapper {
     margin: 0 auto;
     display: flex;
@@ -85,15 +99,25 @@ table.navigation td a {
     justify-content: center;
     /* flex-flow: row wrap; */
     flex: 0 1 auto;
+    font-size: 1.2em;
+}
 
+.text-box p {
+    max-width: 40em;
+    padding: 1em;
+}
+
+/* .text-box ol, ul, p {
+    font-size: 1.2em;
+} */
+
+.border-shadow {
     border: 1px solid grey;
-    border-radius: 5px;
     box-shadow: 0 0 3px grey;
 }
 
-.text-box .text {
-    max-width: 40em;
-    padding: 1em;
+.shadow {
+    box-shadow: 0 0 3px grey;
 }
 
 .bold-italic {
@@ -113,17 +137,20 @@ table.navigation td a {
     height: auto;
 }
 
+#logbooch {
+    text-decoration: underline;
+    color: orange;
+    font-style: italic;
+}
+
+.float-left {
+    float: left;
+    margin-left: 1em;
+}
+
 .float-right {
     float: right;
     margin-right: 1em;
-}
-
-.text {
-    font-size: 1.2em;
-}
-
-.nice-size {
-    font-size: 1.2em;
 }
 
 .text-white {
@@ -161,15 +188,18 @@ table.navigation td a {
     margin: 5px;
 }
 
-ul.nice-size li {
-    font-size: 1em;
+.blue {
+    color: blue;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #28305e;
-    padding: 0.5em;
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
 }
